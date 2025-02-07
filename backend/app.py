@@ -6,6 +6,7 @@ from flask import Flask, make_response, request
 from backend import user_repository, project_service
 
 app = Flask(__name__)
+app.run(host="0.0.0.0")
 
 
 # PROJECTS
